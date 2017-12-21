@@ -2,7 +2,7 @@
 
 To run the program, ensure you have [hug](http://www.hug.rest/) available, along with its dependencies (esp python3)
 
-`hug -f server.py`
+From this directory, run `hug -f server.py`
 
 Navigate to `localhost:8000/submit_address?`
 
