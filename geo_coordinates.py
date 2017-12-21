@@ -19,5 +19,4 @@ class GeoCoordinates:
         try:
             return urlopen(request)
         except HTTPError as error:
-            return error.code
-
+            return {status: error.status}
